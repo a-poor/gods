@@ -4,98 +4,110 @@
 
 package gods
 
-type NDArrInt struct {
-	Data []int
+type ArrInt struct {
+	Data  []int
+	Shape []int
 }
 
-func (a NDArrInt) String() string {
+func (a ArrInt) String() string {
 	return "I'm a array of Ints"
 }
 
-type NDArrInt8 struct {
-	Data []int8
+type ArrInt8 struct {
+	Data  []int8
+	Shape []int
 }
 
-func (a NDArrInt8) String() string {
+func (a ArrInt8) String() string {
 	return "I'm a array of Int8s"
 }
 
-type NDArrInt16 struct {
-	Data []int16
+type ArrInt16 struct {
+	Data  []int16
+	Shape []int
 }
 
-func (a NDArrInt16) String() string {
+func (a ArrInt16) String() string {
 	return "I'm a array of Int16s"
 }
 
-type NDArrInt32 struct {
-	Data []int32
+type ArrInt32 struct {
+	Data  []int32
+	Shape []int
 }
 
-func (a NDArrInt32) String() string {
+func (a ArrInt32) String() string {
 	return "I'm a array of Int32s"
 }
 
-type NDArrInt64 struct {
-	Data []int64
+type ArrInt64 struct {
+	Data  []int64
+	Shape []int
 }
 
-func (a NDArrInt64) String() string {
+func (a ArrInt64) String() string {
 	return "I'm a array of Int64s"
 }
 
-type NDArrUint struct {
-	Data []uint
+type ArrUint struct {
+	Data  []uint
+	Shape []int
 }
 
-func (a NDArrUint) String() string {
+func (a ArrUint) String() string {
 	return "I'm a array of Uints"
 }
 
-type NDArrUint8 struct {
-	Data []uint8
+type ArrUint8 struct {
+	Data  []uint8
+	Shape []int
 }
 
-func (a NDArrUint8) String() string {
+func (a ArrUint8) String() string {
 	return "I'm a array of Uint8s"
 }
 
-type NDArrUint16 struct {
-	Data []uint16
+type ArrUint16 struct {
+	Data  []uint16
+	Shape []int
 }
 
-func (a NDArrUint16) String() string {
+func (a ArrUint16) String() string {
 	return "I'm a array of Uint16s"
 }
 
-type NDArrUint32 struct {
-	Data []uint32
+type ArrUint32 struct {
+	Data  []uint32
+	Shape []int
 }
 
-func (a NDArrUint32) String() string {
+func (a ArrUint32) String() string {
 	return "I'm a array of Uint32s"
 }
 
-type NDArrUint64 struct {
-	Data []uint64
+type ArrUint64 struct {
+	Data  []uint64
+	Shape []int
 }
 
-func (a NDArrUint64) String() string {
+func (a ArrUint64) String() string {
 	return "I'm a array of Uint64s"
 }
 
-type NDArrFloat32 struct {
-	Data []float32
+type ArrFloat32 struct {
+	Data  []float32
+	Shape []int
 }
 
-func (a NDArrFloat32) String() string {
+func (a ArrFloat32) String() string {
 	return "I'm a array of Float32s"
 }
 
-type NDArrFloat64 struct {
-	Data []float64
+type ArrFloat64 struct {
+	Data  []float64
+	Shape []int
 }
 
-func (a NDArrFloat64) String() string {
+func (a ArrFloat64) String() string {
 	return "I'm a array of Float64s"
 }
